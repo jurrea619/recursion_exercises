@@ -10,6 +10,10 @@ end
 # p range(-2, -5)
 # p range(-1, 0)
 
+=begin
+Given na array, return the sum of all numbers in array. Use both an iterative method
+as well as a recursive method
+=end
 def sum_array_iterative(arr)
     arr.inject(0) {|sum, el| sum + el}
 end
